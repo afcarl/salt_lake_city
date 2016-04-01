@@ -21,7 +21,7 @@ req = otp.createRequest()
 req.setDateTime(2016, 2, 17, 8, 00, 00)
 # req.setArriveBy(True) # this active makes router.plan() through an error at "org.opentripplanner.routing.impl.StreetVertexIndexServiceImpl.getSampleVertexAt(StreetVertexIndexServiceImpl.java:597)"
 req.setMaxTimeSec(300000)
-req.setModes('CAR')
+req.setModes('BICYCLE')
 req.setMaxWalkDistance(5.0)
 
 # The file points.csv contains the columns GEOID, X and Y.
