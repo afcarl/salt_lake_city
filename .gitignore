@@ -1,0 +1,7 @@
+lucene
+**.obj
+**.swp
+**.jar
+/*.csv
+utah_data
+**.ipynb_checkpoints
