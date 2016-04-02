@@ -5,3 +5,4 @@ lucene
 /*.csv
 utah_data
 **.ipynb_checkpoints
+**ut_od_main*
